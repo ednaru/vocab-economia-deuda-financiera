@@ -14,9 +14,9 @@
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-financiera"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de la información de la Deuda Pública Financiera de los ayuntamientos"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of the Financial  Public Debt of a municipality"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/terms/created> "2020-05-20"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-financiera.owl"@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/terms/issued> "2020-05-20"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/vocab/vann/preferredNamespacePrefix> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-financiera#" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-financiera" .
@@ -42,6 +42,9 @@
 # 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
