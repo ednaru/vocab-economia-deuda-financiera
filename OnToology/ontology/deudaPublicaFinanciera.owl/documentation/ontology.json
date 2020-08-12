@@ -76,6 +76,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -183,16 +186,16 @@
     "@language" : "en",
     "@value" : "Vocabulary for the representation of the Financial  Public Debt of a municipality"
   } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2020-05-20"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"
   } ],
   "http://purl.org/dc/terms/hasFormat" : [ {
     "@language" : "es",
     "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-financiera.owl"
-  } ],
-  "http://purl.org/dc/terms/issued" : [ {
-    "@language" : "es",
-    "@value" : "2020-05-20"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@value" : "https://creativecommons.org/licenses/by/4.0"
