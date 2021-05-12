@@ -391,6 +391,29 @@
     "@id" : "_:genid10"
   } ]
 }, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Año al cual corresponde la deuda."
+  }, {
+    "@language" : "en",
+    "@value" : "Year to which the debt corresponds."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "año"
+  }, {
+    "@language" : "en",
+    "@value" : "year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#capitalVivo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -576,13 +599,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#duration"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#endeudamientoPDE",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#endeudamiento",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "La deuda elaborada según la metodología del Protocolo de Deficit Excesivo (PDE), conforme a las definiciones del Sistema Europeo de Cuentas SEC 2010, es la deuda homogénea y comparable con el resto de las administraciones públicas."
+    "@value" : "Importe total de endeudamiento que corresponde a préstamos y emisiones."
   }, {
-    "@value" : "The debt information prepared according to the methodology of the Excessive Deficit Protocol (PDE), according to the definitions of the European System of Accounts SEC 2010, is the homogeneous debt and comparable with the rest of the public administrations."
+    "@value" : "Total amount of debt that corresponds to loans and issuances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#DeudaAnual"
@@ -591,11 +614,11 @@
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "endeudamiento protocolo déficit excesivo"
-  }, {
     "@language" : "en",
-    "@value" : "excessive deficit protocol debt"
+    "@value" : "debt"
+  }, {
+    "@language" : "es",
+    "@value" : "endeudamiento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -1179,14 +1202,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#tasaFija",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#tipoFijo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Fixed interest rate of a financial instrument"
   }, {
     "@language" : "es",
-    "@value" : "Porcentaje de interés fijo de un instrumento de financiación"
+    "@value" : "Valor o porcentaje de interés fijo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#InstrumentoFinanciacion"
@@ -1196,10 +1219,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "fixed interest rate"
+    "@value" : "fixed rate"
   }, {
     "@language" : "es",
-    "@value" : "tasa fija"
+    "@value" : "tipo fijo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -1275,29 +1298,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid1"
-  } ]
-}, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/presupuesto#anioFiscal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Ejercicio fiscal. Período de 12 meses entre el 1 de enero y 31 de diciembre."
-  }, {
-    "@language" : "en",
-    "@value" : "Fiscal year. Period of 12 months between the 1st of January and the 31st of December."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/presupuesto"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "año fiscal"
-  }, {
-    "@language" : "en",
-    "@value" : "fiscal year"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/economia/deuda-publica-financiera/tipo-entidad-prestamista",

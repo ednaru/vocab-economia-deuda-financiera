@@ -13,6 +13,10 @@
     "created" : {
       "@id" : "http://purl.org/dc/terms/created"
     },
+    "tipoFijo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#tipoFijo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
     "example" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#example"
     },
@@ -62,10 +66,6 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "endeudamientoPDE" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#endeudamientoPDE",
-      "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
     "Concept" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     },
@@ -73,12 +73,12 @@
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#cuantiaPorTitulo",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
-    "tasaFija" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#tasaFija",
-      "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
     "PlanAmortizacion" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#PlanAmortizacion"
+    },
+    "endeudamiento" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#endeudamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "instrumentoFinanciacionCargaFinanciera" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#instrumentoFinanciacionCargaFinanciera",
@@ -153,6 +153,10 @@
     "ConceptScheme" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     },
+    "anio" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
     "DeudaAnual" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#DeudaAnual"
     },
@@ -226,10 +230,6 @@
     "inScheme" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type" : "@id"
-    },
-    "anioFiscal" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/presupuesto#anioFiscal",
-      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
     },
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
