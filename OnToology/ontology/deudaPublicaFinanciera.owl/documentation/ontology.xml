@@ -471,8 +471,8 @@
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
-        <rdfs:comment xml:lang="es">Año al cual corresponde la deuda.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Year to which the debt corresponds.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Año al cual corresponde la carga financiera.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Year to which the financial burden corresponds.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera</rdfs:isDefinedBy>
         <rdfs:label xml:lang="es">año</rdfs:label>
         <rdfs:label xml:lang="en">year</rdfs:label>

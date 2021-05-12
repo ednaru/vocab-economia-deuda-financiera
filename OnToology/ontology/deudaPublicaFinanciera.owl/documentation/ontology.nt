@@ -289,8 +289,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#comment> "Año al cual corresponde la deuda."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#comment> "Year to which the debt corresponds."@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#comment> "Año al cual corresponde la carga financiera."@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#comment> "Year to which the financial burden corresponds."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#label> "año"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera#anio> <http://www.w3.org/2000/01/rdf-schema#label> "year"@en .
