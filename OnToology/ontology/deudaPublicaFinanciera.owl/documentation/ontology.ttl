@@ -309,8 +309,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :anio rdf:type owl:DatatypeProperty ,
                owl:FunctionalProperty ;
       rdfs:range xsd:gYear ;
-      rdfs:comment "Año al cual corresponde la deuda."@es ,
-                   "Year to which the debt corresponds."@en ;
+      rdfs:comment "Año al cual corresponde la carga financiera."@es ,
+                   "Year to which the financial burden corresponds."@en ;
       rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-financiera" ;
       rdfs:label "año"@es ,
                  "year"@en .
